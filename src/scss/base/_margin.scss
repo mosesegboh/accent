@@ -1,0 +1,19 @@
+.margin-center {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    margin: 0 auto;
+}
+
+.margin-top-md {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    margin-top: 10px;
+}
+
+.margin-negative-right-md {
+    margin-right: -10px;
+}

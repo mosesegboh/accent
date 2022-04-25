@@ -1,0 +1,32 @@
+.text-decoration-none {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    text-decoration: none;
+}
+
+.text-decoration-italic {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    text-decoration: italic;
+    font-style: italic;
+}
+
+.text-align-center {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    text-align: center;
+}
+
+.text-align-left {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    text-align: left;
+}

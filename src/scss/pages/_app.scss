@@ -1,0 +1,183 @@
+
+.Apps {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    align-items: center;
+}
+
+.App {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    padding-top: 60px;  
+  }
+
+
+.App > div {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    background-color: $containercolor;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0 0 5px #888888;
+        box-shadow: 0 0 5px #888888;
+}
+
+.container {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    min-width: 30%;  
+    height: 450px;
+}
+
+.image{
+    //mobile first approach
+    @include mobile() {
+    }
+
+    background-color: $mainimage;
+    width: 94%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.mainimage{
+    //mobile first approach
+    @include mobile() {
+    }
+
+    background-color: $mainimage;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.name{
+    //mobile first approach
+    @include mobile() {
+    }
+
+    width: 200px;
+    height: 50px;
+    background-color: $name;
+    border: 2px solid $black;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+//for using shadow with clipath
+.namewrap {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    filter: drop-shadow(5px 5px #000); 
+    margin-top: -50px;
+}
+
+//for extra border
+.allname {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    position: absolute;
+    left: 40px;
+    width: 205px;
+    height: 55px;
+    background-color: $black;
+    clip-path: polygon(4% 0, 100% 0, 100% 100%, 9% 100%);
+}
+
+.mainlowerhalf {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    height: 48%;
+    background-color: $mainlowerhalf;
+}
+
+
+.rightlowerhalf {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    max-width: 100px;
+    height: 55%;
+    background-color:$rightlowerhalf;
+    margin-right: 15px;
+    margin-top: 45px;
+    margin-left: -15px;
+    padding-left: 8px;
+}
+
+.leftlowerhalf {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    max-width: 195px;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5,1fr);
+    padding: 30px 10px;
+    margin-top:10px;
+    grid-gap: 5px;
+}
+
+.filter {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    filter: drop-shadow(2px 2px $black);
+ }
+
+ .wrapper {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    display:flex;
+    height: 15px;
+    overflow: none;
+ }
+
+.leftlowerhalf__leftbox {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    background-color: $leftleftbox;
+    clip-path: polygon(0 0, 92% 0, 80% 19%, 0 19%);
+    height: 120px;
+    width: 95px;
+    border: 1px solid $black;
+}
+
+
+.leftlowerhalf__rightbox {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    background-color: $white;
+    clip-path: polygon(10% 0%, 92% 0, 91% 19%, 0 19%);
+    height: 120px;
+    width: 85px;
+    font-size: 15px;
+    border: 1px solid $black;
+}
+
+
+
+
+

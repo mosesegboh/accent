@@ -1,0 +1,40 @@
+.flex {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    justify-content: space-between;
+}
+
+.center {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    justify-content: center;
+}
+
+.right {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    justify-content: right;
+}
+
+.left {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    justify-content: left;
+}

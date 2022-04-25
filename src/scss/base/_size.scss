@@ -1,0 +1,23 @@
+.height-half {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    height: 50%;
+}
+
+.height-full {
+    //mobile first approach
+    @include mobile() {
+    }
+
+    height: 100%;
+}
+
+.width-full {
+    //mobile first approach
+    @include mobile() {
+    }
+    
+    width: 100%;
+}
